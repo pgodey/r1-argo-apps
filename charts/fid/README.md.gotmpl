@@ -1,0 +1,24 @@
+{{ template "chart.header" . }}
+
+{{ template "chart.description" . }}
+
+To regenerate this document, from the root of this chart directory run:
+```shell
+docker run --rm --volume "$(pwd):/helm-docs" -u $(id -u) jnorwood/helm-docs:latest
+```
+
+## Prerequisites
+
+- Helm v3.0.0+
+- CRDs (Application and AppProject)
+  - You need to install them via [argo-cd Helm chart](../argo-cd) or upstream.
+
+## Installation
+
+```console
+helm repo add r1-argocd https://pgodey.github.io/r1-argo-apps
+helm install my-release r1-argocd/fid
+```
+
+{{ template "chart.valuesSection" . }}
+

@@ -1,0 +1,27 @@
+applications:  
+  - name: fid-dev
+    destination: 
+      namespace: fid-dev
+      server: "https://kubernetes.default.svc"
+    project: default
+    source: 
+      chart: fid
+      helm: 
+        parameters: 
+          - name: fid.license
+            value: "[FID License Key]"
+          - name: fid.rootPassword
+            value: "R@diant1R0cks"
+          - name: dependencies.zookeeper
+            value: "true"
+          - name: replicaCount
+            value: "2"
+      repoURL: "https://radiantlogic-devops.github.io/helm"
+      targetRevision: "0.1.4"
+    syncPolicy:
+      syncOptions:
+        - CreateNamespace=true 
+      automated: 
+        prune: true
+        selfHeal: true
+
