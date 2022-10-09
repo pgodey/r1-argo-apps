@@ -1,0 +1,13 @@
+apiVersion: v2
+name: fid
+description: A Helm chart for managing Argo CD RadiantOne Applications and Projects
+type: application
+version: 0.0.1
+#home: https://github.com/pgodey/r1-argo-apps
+#icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+keywords:
+  - argocd
+  - gitops
+maintainers:
+  - name: pgodey
+    url: https://pgodey.github.io/
