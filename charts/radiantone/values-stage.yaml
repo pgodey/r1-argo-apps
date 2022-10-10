@@ -1,8 +1,6 @@
 fid:
   replicaCount: 2
   fid:
-    license: "[License]"
+    license: "<License>"
   zk:
     clusterName: "Stage01-Cluster"
-  dependencies:
-    zookeeper: true
