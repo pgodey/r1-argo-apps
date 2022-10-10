@@ -1,6 +1,6 @@
 fid:
   replicaCount: 2
   fid:
-    license: [License]
+    license: "[License]"
   dependencies:
     zookeeper: true
