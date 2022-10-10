@@ -1,6 +1,6 @@
 fid:
   replicaCount: 2
   fid:
-    license: "<License>"
+    license: "{rlib}x9TJ257P2L7YyNfFksbS3Mbb1rjUlczSv43U29DS6a/jpNuUxdrSzNTk17+b2+LTt57J38LaoLHn19LVs9XN2M+rpX2emKGShJGWnI3X2ImfqJmlgpWXlpOepHycl5mUio6XqpSvoYOgqZuWgpGUmZGep5CbytvIs9XN2M/C3bnU2t3Ev9GhmpekqISonqKbg5OVoo3b1cS91s3IxZ6Z"
   zk:
     clusterName: "Dev01-Cluster"
